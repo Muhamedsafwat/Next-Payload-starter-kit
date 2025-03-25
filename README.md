@@ -12,7 +12,7 @@ A fully functional starter kit integrating **Next.js** with **Payload CMS**. Thi
 /nextjs-payload-starter
 │── /src/app
 │──── /(frontend)  # like any normal Next JS project
-│──── /(payload) # only add collections insid the /_collections folder, DON'T edit any other files
+│──── /(payload) # only add collections inside the /_collections folder, DON'T edit any other files
 │── /public   # Static assets
 │── .env  # Example environment variables
 │── README.md  # Detailed usage guide
@@ -50,6 +50,7 @@ A fully functional starter kit integrating **Next.js** with **Payload CMS**. Thi
 
 ## 🛠 Extending the Starter Kit
 - **Adding new collections:** Modify `/src/app/(payload)/_collections`.
+- **Fields in Payload CMS:** Explore all field types that payload offers [here](https://payloadcms.com/docs/fields/overview)
 - **Extending the frontend:** Feel free to treat `/src/app/(frontend)` like any app directory in your previous Next JS projects.
 
 ---
