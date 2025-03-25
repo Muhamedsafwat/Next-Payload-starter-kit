@@ -3,11 +3,13 @@
 A fully functional starter kit integrating **Next.js** with **Payload CMS**. This setup includes preconfigured **collections, API routes, and example Next.js pages** fetching data from Payload. Perfect for developers looking to build **headless CMS-powered applications** quickly.
 
 ## 🚀 Features
+
 - **Preconfigured Payload CMS** with example collections.
 - **Next.js frontend** with API calls to fetch data from Payload.
 - **Environment variables setup** for easy configuration.
 
 ## 📂 Project Structure
+
 ```
 /nextjs-payload-starter
 │── /src/app
@@ -26,20 +28,26 @@ A fully functional starter kit integrating **Next.js** with **Payload CMS**. Thi
 ## 🔧 Installation & Setup
 
 1. **Clone the repository:**
+
    ```sh
    git clone https://github.com/yourusername/nextjs-payload-starter.git
    cd nextjs-payload-starter
    ```
 
 2. **Install dependencies:**
+
    ```sh
    npm i --legacy-peer-deps
    ```
 
 3. **Set up environment variables:**
-   Add your MongoDB connection string to `.env` and add any other values as needed.
+   Create `.nev` file in the root directory and add the next variables
+   NEXT_PUBLIC_BASE_URL=http://localhost:3000/ 'or whaterve port you're running the application on'
+   NEXT_PUBLIC_DB_KEY= 'Your MongoDB Connection String'
+   NEXT_PUBLIC_PAYLOAD_SECRET= 'Any random string '
 
 4. **Run The application locally:**
+
    ```sh
    npm run dev
    ```
@@ -49,6 +57,7 @@ A fully functional starter kit integrating **Next.js** with **Payload CMS**. Thi
    - **Next.js Frontend:** `http://localhost:3000`
 
 ## 🛠 Extending the Starter Kit
+
 - **Adding new collections:** Modify `/src/app/(payload)/_collections`.
 - **Fields in Payload CMS:** Explore all field types that payload offers [here](https://payloadcms.com/docs/fields/overview)
 - **Extending the frontend:** Feel free to treat `/src/app/(frontend)` like any app directory in your previous Next JS projects.
@@ -56,4 +65,3 @@ A fully functional starter kit integrating **Next.js** with **Payload CMS**. Thi
 ---
 
 Feel free to contact me for any suggestions or feedback to enhance this starter kit! 🚀
-
