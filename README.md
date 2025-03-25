@@ -30,8 +30,8 @@ A fully functional starter kit integrating **Next.js** with **Payload CMS**. Thi
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/nextjs-payload-starter.git
-   cd nextjs-payload-starter
+   git clone git@github.com:Muhamedsafwat/Next-Payload-starter-kit.git
+   cd Next-Payload-starter-kit
    ```
 
 2. **Install dependencies:**
